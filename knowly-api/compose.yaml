@@ -93,7 +93,7 @@ services:
 
   rabbitmq:
     <<: *security-defaults
-    image: 'rabbitmq:4.3-management'
+    image: 'rabbitmq:4.4-management'
     user: '999:999'
     cap_add:
       - CHOWN
